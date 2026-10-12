@@ -1,7 +1,7 @@
 import sys
 try:
     grade = int(input("Enter your grade: "))
-    if grade < 40 and grade > 0:
+    if grade < 40 and grade >= 0:
         print(grade, "is a Fail")
     elif grade > 39 and grade < 70:
         print(grade, "is a Pass")
