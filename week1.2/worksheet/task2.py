@@ -17,5 +17,5 @@ else:
 
 print("Minimum = ",minimum)
 print("Maximum = ",maximum)
-print("Mean",mean)
+print("Mean = ",mean)
 print("Median = ",median)
