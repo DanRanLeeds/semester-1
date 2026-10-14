@@ -18,4 +18,4 @@ else:
 print(f"Minimum = {minimum:.1f}")
 print(f"Maximum = {maximum:.1f}")
 print(f"Mean = {mean:.1f}")
-print(f"Median = {median:.1f}")
+print(f"Median = {median:.2f}")
