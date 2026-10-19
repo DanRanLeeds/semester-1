@@ -23,7 +23,6 @@ def currency_converter(amount, from_currency, to_currency):
     else:
         value = conversion_rate.get(from_currency).get(to_currency)
         result = round(amount * value,2)
-        print(f"{amount} in {from_currency} is equal to {result} in {to_currency}")
 
     # your code here
 
