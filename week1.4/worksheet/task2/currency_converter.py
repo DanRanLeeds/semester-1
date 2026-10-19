@@ -17,11 +17,19 @@ def currency_converter(amount, from_currency, to_currency):
         'PHP': {'CNY': 0.12, 'GBP': 0.01, 'INR': 1.45},
         'INR': {'PHP': 0.69, 'CNY': 0.09, 'GBP': 0.01}
     }
+    if amount < 0:
+        result = 0.0
+        print("0.0")
+    else:
+        value = conversion_rate.get(from_currency).get(to_currency)
+        result = round(amount * value,2)
+        print(f"{amount} in {from_currency} is equal to {result} in {to_currency}")
 
     # your code here
 
-    return None
+    return result
 
+currency_converter(-1,"GBP","PHP")
 # Submit only this file currency_converter.py with the completed function.
 
 # Remove any additional code you may have added during development and testing.
