@@ -5,9 +5,15 @@ class Point:
     A Point in 2D space.
     """
 
-    # Add constructor here
+    def __init__(self, x_coordinate, y_coordinate):
+        """
+        Class constructor
+        """
+        self.x = x_coordinate
+        self.y = y_coordinate
 
-    # Add distance() method here
+    def distance(self):
+        
 
     # Add distance_to() method here
     # (This will need a parameter representing another point)
