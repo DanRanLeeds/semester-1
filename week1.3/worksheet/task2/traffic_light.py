@@ -20,9 +20,6 @@ while systime < maxtime:
         states[state] = {"red":4, "red_amber":3, "green":5, "amber":3}[state]
         state = statelist[(statelist.index(state) + 1) % len(statelist)]
 
-
-    #state = statelist[(statelist.index(state) + 1) % len(statelist)]
-    #states[state] = states[state] + 1
         
 
 
