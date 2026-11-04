@@ -34,7 +34,3 @@ class Rectangle:
         return perimeter
     
     
-Rectangle1 = Rectangle(0,3)
-print(Rectangle1.is_square())
-print(Rectangle1.area())
-print(Rectangle1.perimeter())
