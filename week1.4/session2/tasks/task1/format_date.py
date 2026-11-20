@@ -8,6 +8,7 @@
 
 def format_data(day, month, year, separator):
     # complete your code here
+    
 
     return formatted_date
 

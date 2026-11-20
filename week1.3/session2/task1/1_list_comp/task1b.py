@@ -14,4 +14,5 @@ for i in values:
 print(newval)
 
 # write the list comprehension equivalent to the `for` loop
-
+list_comp = [2 * i if i % 2 == 0 else i for i in values]
+print(list_comp)
