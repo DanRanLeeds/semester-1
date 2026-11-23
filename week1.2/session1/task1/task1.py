@@ -6,15 +6,16 @@ shopping = ["eggs", "milk", "flour", "carrots"]
 print(shopping)
 
 # We forgot something, so add it to list
-
+"""
+Adding banana to the list shopping
+"""
 shopping.append("bananas")
 print(shopping)
 
 # We bought something, so remove it from list
-
+"""
+removing eggs from list shopping
+"""
 shopping.remove("eggs")
 print(shopping)
 
-# Replace bananas with grapes
-
-# Add yoghurt, just after milk

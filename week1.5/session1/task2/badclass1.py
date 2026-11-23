@@ -5,7 +5,7 @@
 
 class Point:
     """
-    A point in 2D space.
+    Defines a point in 2D space.
     """
 
     def __init__(self, x_coordinate, y_coordinate):
