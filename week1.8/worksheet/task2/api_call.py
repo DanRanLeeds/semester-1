@@ -3,11 +3,11 @@ import httpx
 
 base_url = "https://dummyjson.com/"
 
-content = "posts/1"
+content = {"q": "apple"}
 
-url = base_url + content  # API request
+url = base_url + "products/search"  # API request
 
-response = httpx.get(url)   # API call
+response = httpx.get(url, params=content)   # API call
 
 print(response.status_code)   # HTTP response
 
